@@ -1,0 +1,126 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+/* BASE STYLES */
+.body {
+    background: rgb(225, 227, 230);
+}
+
+.header {
+    background-color: rgb(0, 162, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title--main {
+    margin: 10px;
+    color: #fff;
+}
+
+.nav_list {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.navbar_icon {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_me {
+    background: #fff;
+    width: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.title--second--about_me {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.about_me-p {
+    padding: 10px;
+}
+
+.certifications {
+    background: #fff;
+    width: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.title--second--cert {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.certifications--images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certifications--images--ibm {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 30px; 
+}
+
+.ibm_image {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.certifications--images--dpai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.dpai_image {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+figcaption {
+    font-size: 14px;
+}
+
+.footer {
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+footer p {
+    color: #fff;
+}
+
+
+
+
